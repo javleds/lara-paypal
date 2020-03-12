@@ -19,11 +19,20 @@
         },
         "files": ["src/helpers.php"]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Javleds\\LaraPayPal\\Tests\\": "tests/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Javleds\\LaraPayPal\\LaraPayPalServiceProvider"
             ]
         }
+    },
+    "require": {
+        "ext-http": "*",
+        "ext-json": "*"
     }
 }

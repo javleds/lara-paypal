@@ -1,6 +1,6 @@
 <?php
 
-function getBaseUrl(string $path = ''): string
+function getBaseDir(string $path = ''): string
 {
     return sprintf(
         '%s/../%s',
