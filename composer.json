@@ -9,5 +9,10 @@
             "email": "juls0593@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1",
+        "guzzlehttp/guzzle": "^6.5"
+    }
 }
