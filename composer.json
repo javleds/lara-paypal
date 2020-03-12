@@ -30,5 +30,9 @@
                 "Javleds\\LaraPayPal\\LaraPayPalServiceProvider"
             ]
         }
+    },
+    "require": {
+        "ext-http": "*",
+        "ext-json": "*"
     }
 }
