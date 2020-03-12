@@ -12,6 +12,7 @@
     "require": {
     },
     "require-dev": {
-        "orchestra/testbench": "^5.1"
+        "orchestra/testbench": "^5.1",
+        "guzzlehttp/guzzle": "^6.5"
     }
 }
