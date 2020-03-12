@@ -9,10 +9,21 @@
             "email": "juls0593@gmail.com"
         }
     ],
-    "require": {
-    },
     "require-dev": {
         "orchestra/testbench": "^5.1",
         "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Javleds\\LaraPayPal\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Javleds\\LaraPayPal\\LaraPayPalServiceProvider"
+            ]
+        }
     }
 }
